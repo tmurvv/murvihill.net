@@ -1,0 +1,2458 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="fontAwesome/css/fontawesome-all.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=1.006">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcGq3P57JI4-hmys0gGZUSZd0S0Loj18A"></script>
+    <script src="js\jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js\script.js?v=1.011"></script>
+
+    <title>The Murvihill Music Studios</title>
+
+</head>
+
+<body>
+    <div class="mobileContainer" id="homeMob">
+        <div class="mobileContainer__mainTitle">The Murvihill Music Studio</div>
+        <div class="mobileContainer__top">
+            <span>Offering private instruction for
+                <a href="#pianoMob">piano</a>,&nbsp;
+                <a href="#guitarMob">guitar</a>,&nbsp;
+                <a href="#brassMob">brass</a>, and
+                <a href="#jazzMob">jazz</a>&nbsp;students.</span>
+            <a class="mobileContainer__top--hamburger js--mobileNav">
+                <i class="fas fa-bars heroContainer__mobileNav--icon"></i>
+            </a>
+        </div>
+
+        <div class="mobileContainer__bottom">
+
+            <div class="mobileContainer__bottom--testimonialSyllabus">
+                <div class="mobileContainer__bottom--testimonialSyllabus-testimonials"> 
+                    <p>"Mr.Murvihill is an amazing piano teacher! He is very encouraging 
+                        and motivating." --Rina D. <a href="#reviewsMob" style="text-decoration: underline; font-size: 10px; font-style:italic;">read more</a></p>
+                    <p>"Both kids will always have a lifelong foundation in music and a 
+                    strong appreciation of it as well. Thank you Ron!" --Heidi S.
+                        <a href="#reviewsMob" style="text-decoration: underline; font-size: 10px; font-style: italic;">read more</a><br>
+                    </p>
+                </div>
+                <div>
+                    <button class="btnGold"><a href='#syllabusMob'>View Syllabus</a></button>
+                    <button class="btnGold"><a href='#ronPerfsMob'>Listen to Ron Murvihill play</a></button> 
+                </div>                                                                                          
+            </div>
+            <div id="js--mobileMenu" class="mobileContainer__bottom--nav">
+                <ul>
+                    <li class="mobileContainer__bottom--nav-button">
+                        <a href="#aboutMob">About</a>
+                    </li>
+                    <li class="mobileContainer__bottom--nav-button">
+                        <a href="#policiesMob">Policies</a>
+                    </li>
+                    <li class="mobileContainer__bottom--nav-button">
+                        <a href="#locationMob">Location</a>
+                    </li>
+                    <li class="mobileContainer__bottom--nav-button">
+                        <a href="#calendar">Schedule</a>
+                    </li>
+                    <li class="mobileContainer__bottom--nav-button">
+                        <a class='fontTiny' href="#studentperfsMob">Student Performances</a>
+                    </li>
+                    <li class="mobileContainer__bottom--nav-button">
+                        <a href="#contactMob">Contact</a>
+                    </li>
+                    <li class="mobileContainer__bottom--nav-button">
+                        <a href="#homeMob">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobileContainer__bottom--location" id="locationMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Location</div>
+            <div class="">
+                <p>
+                    The Murvihill Piano Studio is located just minutes from Bethany Village at 10021 NW Thomson Rd, Portland.
+                </p>
+                <br>
+
+                <p>
+                    Directions from the west:
+
+                    The fourth driveway east (uphill) from the corner of Laidlaw and Thompson on the left (just past the green 3 mile marker on the left). Veer left immediately upon entering the driveway and park to the right in front of the garage.
+                </p>
+                <br>
+
+                <p>
+                    Directions from the east:
+
+                    The first driveway west (downhill) from Devoto (this is at the second big Forest Park sign) on the right. Veer left immediately upon entering the driveway and park and park to the right in front of the garage.
+                </p>
+                <br>
+                <br>
+                <a href="#mapMob">Map</a>
+            </div>
+        </div>
+        
+        <div class="mobileContainer__bottom--about" id="aboutMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">About Murvihill Studio</div>
+
+            <div class="mobileContainer__bottom--about">With a Master's Degree in Jazz Studies from the University of North Texas, Ron Murvihill has a wealth of musical
+                training and experience to share with his students. Ron has been teaching in the Bethany area since 2003
+                in addition to performing jazz and sacred music in Portland. He has played trombone in big bands and salsa
+                bands, taught jazz at the college level, composed and produced award winning incidental music for theater,
+                taught music students in the elementary schools and developed and assisted in the development of middle school
+                band programs.</div>
+            <div class="mobileContainer__bottom--aboutRecordings">
+                <img src="img/RonBlackBG.jpg" alt="Ron Murvihill photo" class="mobileContainer__bottom--aboutRecordings-img">
+                <ul class="mobileContainer__bottom--aboutRecordings-text">
+                    <h3>Hear Ron Live at the Heathman:</h3>
+                    <li>
+                        <audio id="misty" src="media/misty.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('misty', 'mistyPauseAboutMob')">
+                            Misty
+                            <button id="mistyPauseAboutMob" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <audio id="wivesAndLovers" src="media/wivesAndLovers.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('wivesAndLovers', 'wivesPauseAboutMob')">
+                            Wives and Lovers
+                            <button id="wivesPauseAboutMob" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                    <br>
+                    <h3>See Ron On YouTube:</h3>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=GOrvYGL2IbU" target="_blank">Lachesis on YouTube</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobileContainer__bottom--contact" id="contactMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Contact Murvihill Studio</div>
+            <div class="mobileContainer__bottom--contact-secondaryText">
+                <p>Telephone : 503-240-7144</p>
+                <p>Email: ron@murvihill.net</p>
+                <p>CALL FOR FREE CONSULTATION</p>
+            </div>
+            <ul class="mobileContainer__bottom--secondaryNav">
+                <li>
+                    <a href="#pianoMob">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarMob">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassMob">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzMob">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobileContainer__bottom--testimonials-yin" id="yinMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Testimonials</div>
+            <div class="mobileContainer__bottom--testimonials-yin">
+                <blockquote>"I noticed that under Ron's instruction theyhave significantly improved in their ability to play music with
+                    an emotional touch. Their technical ability has also improved noticably. Ron makes sure that the kids
+                    have a strong foundation inboth reading music and basic reading skills." ~Yin</blockquote>
+                <ul class="mobileContainer__bottom--secondaryNav">
+                    <li>
+                        <a href="#pianoMob">Piano Lessons</a>
+                    </li>
+                    <li>
+                        <a href="#guitarMob">Guitar Lessons</a>
+                    </li>
+                    <li>
+                        <a href="#brassMob">Brass Lessons</a>
+                    </li>
+                    <li>
+                        <a href="#jazzMob">Jazz Lessons</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobileContainer__bottom--testimonials-heidi" id="heidiMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Testimonials</div>
+            <blockquote>"With Ron's guidance, students have the opportunity to get excited about learning from their own musical explorations.
+                It takes a special teacher to find a way to teach the basics and encourage musical creativity, and Ron's
+                done that for our son." ~Heidi</blockquote>
+            <ul class="mobileContainer__bottom--secondaryNav">
+                <li>
+                    <a href="#pianoMob">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarMob">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassMob">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzMob">Jazz Lessons</a>
+                </li>
+            </ul>
+
+
+        </div>
+
+
+        <div class="mobileContainer__bottom--specifications" id="pianoMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Piano Lessons</div>
+
+
+            <div class="mobileContainer__bottom--specifications-text">
+                <h1>Piano Lessons</h1>
+                <br>
+                <p>
+                    Piano students will play songs and read music from the first lesson. Beginning students learn to read using fingerings as
+                    they develop rhythm, tempo and articulation skills. As they progress, they will learn to read notes using
+                    skips and steps and through note reading.
+                </p>
+                <br>
+                <p>
+                    "I am very patient. I take into account that each child has different learning strategies and requires different teaching
+                    approaches. I encourage students to explore their interest in different styles of music while insisting
+                    that they learn to play with good rhythm, tempo, articulation and musicality.
+                </p>
+                <br>
+                <p>
+                    I have found that many students appreciate the individual attention that they seldom receive at our public schools, and that
+                    the ability to play music from a book or in groups improves concentration. I believe strongly in developing
+                    a students reading skills so that they may continue to enjoy playing different pieces of music as they
+                    move through life. " ~ Ron Murvihill
+                </p>
+            </div>
+            <ul class="mobileContainer__bottom--secondaryNav">
+                <li>
+                    <a href="#pianoMob">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarMob">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassMob">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzMob">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobileContainer__bottom--specifications" id="guitarMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Guitar Lessons</div>
+
+
+            <div class="mobileContainer__bottom--specifications-text">
+                <h1>Guitar Lessons</h1>
+                <br>
+                <p>
+                    The Murvihill Piano Studio is offering guitar lessons to beginning guitarists at least 7 years old. Students will learn chords,
+                    songs, strumming and picking techniques, different scales for different musical styles and good sound
+                    production.
+                </p>
+                <br>
+                <p>
+                    As students advance they will learn how barre chords can expand their chordal vocabulary twelvefold. They will learn to play
+                    in tempo with recordings and with other musicians, and learn practice skills to accelerate their development.
+                </p>
+                <br>
+                <p>
+                    Students can learn techniques for playing rock, metal, blues, jazz or classical while at the same time develop good fundamental
+                    musical skills.</p>
+            </div>
+            <ul class="mobileContainer__bottom--secondaryNav">
+                <li>
+                    <a href="#pianoMob">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarMob">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassMob">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzMob">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobileContainer__bottom--specifications" id="brassMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Brass Lessons</div>
+
+
+            <div class="mobileContainer__bottom--specifications-text">
+                <h1>Brass Lessons</h1>
+                <br>
+                <p>
+                    The most important aspect of strong brass playing is a strong sound. Students will learn to play with a good sound foremost,
+                    but will also learn rhythm, articulation, musicality and will learn to read music and to play in groups.
+                </p>
+                <br>
+                <p>
+                    Students will have the opportunity each week during lessons to hear professional level brass sound. It is extremely important
+                    that this sound is internalized and emulated .
+                </p>
+                <br>
+                <p>
+                    Students will have free professional level piano accompanying available to them for lessons and for recitals.
+                </p>
+            </div>
+            <ul class="mobileContainer__bottom--secondaryNav">
+                <li>
+                    <a href="#pianoMob">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarMob">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassMob">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzMob">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobileContainer__bottom--specifications" id="jazzMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Jazz Lessons</div>
+            <div class="mobileContainer__bottom--specifications-text">
+                <h1>Jazz Lessons</h1>
+                <br>
+                <p>
+                    Jazz study involves a multitude of skills in addition to basic musical skills. Students at the Murvihill Piano Studio will
+                    develop these skills, including:
+                </p>
+                <br>
+                <p>
+                    ~ A thorough understanding of harmonic theory
+                    <br> ~ An ability to emulate musical styles
+                    <br> ~ A good understanding of composition
+                    <br> ~ The musical and visual customs of the traditional jazz group
+                    <br> ~ Bebop vocabulary
+                    <br> ~ Solo transcription
+                </p>
+                <br>
+                <p>
+                    Students will also have opportunities to practice and perform with a professional jazz pianist and to participate in jam
+                    sessions with other students and jazz professionals.
+                </p>
+            </div>
+            <ul class="mobileContainer__bottom--secondaryNav">
+                <li>
+                    <a href="#pianoMob">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarMob">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassMob">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzMob">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobileContainer__bottom--policies" id="policiesMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Policies</div>
+
+
+            <ul class="">
+                <li>
+                    <a href="#practiceMob">Practice</a>
+                </li>
+                <li>
+                    <a href="#recitalsMob">Recitals</a>
+                </li>
+                <li>
+                    <a href="#syllabusMob">Syllabus</a>
+                </li>
+                <li>
+                    <a href="#paymentMob">Payment</a>
+                </li>
+                <li>
+                    <a href="#makeupsMob">Make-ups</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobileContainer__bottom--practice" id="practiceMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Practice</div>
+            <div class="mobileContainer__bottom--specifications-text">
+                <p>
+                    Practice is the key to learning an instrument. One can think of practice as the engine that drives the train of improvement,
+                    while lessons are the rails that keep the train headed in the right direction.
+                </p>
+                <br>
+                <p>
+                    The reality is that most young students want to learn and play their instrument but they don't want to practice. It is the
+                    responsibility of parents to ensure that their children are practicing consistently.
+                </p>
+                <br>
+                <p>
+                    Adult students are motivated to practice, but have many other priorities that preclude consistent practice periods. Adult
+                    students must make sure that they can prioritize practice time. </p>
+                <ul class="mobileContainer__bottom--secondaryNav">
+                    <li>
+                        <a href="#practiceMob">Practice</a>
+                    </li>
+                    <li>
+                        <a href="#recitalsMob">Recitals</a>
+                    </li>
+                    <li>
+                        <a href="#syllabusMob">Syllabus</a>
+                    </li>
+                    <li>
+                        <a href="#paymentMob">Payment</a>
+                    </li>
+                    <li>
+                        <a href="#makeupsMob">Make-ups</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobileContainer__bottom--recitals" id="recitalsMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Recitals</div>
+
+            <div class="mobileContainer__bottom--specifications-text">
+                <p>
+                    Recitals occur two times a year, once at the end of January and once at the beginning of June. They take place at the studio
+                    and run about 45 minutes after which there is a reception with snacks and drinks.
+                </p>
+                <br>
+                <p>
+                    Students are not required to perform or attend recitals but are strongly encouraged to. The most progress occurs for many
+                    students the month before a recital.
+                </p>
+                <br>
+                <p>
+                    There are currently no fees for recitals.
+                </p>
+                <ul class="mobileContainer__bottom--secondaryNav">
+                    <li>
+                        <a href="#practiceMob">Practice</a>
+                    </li>
+                    <li>
+                        <a href="#recitalsMob">Recitals</a>
+                    </li>
+                    <li>
+                        <a href="#syllabusMob">Syllabus</a>
+                    </li>
+                    <li>
+                        <a href="#paymentMob">Payment</a>
+                    </li>
+                    <li>
+                        <a href="#makeupsMob">Make-ups</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobileContainer__bottom--syllabus" id="syllabusMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Syllabus</div>
+            <div class="mobileContainer__bottom--specifications-text">
+                <p>
+                    The Oregon Music Teachers Association Piano Syllabus is “an outline of study designed to provide students with a thorough
+                    and comprehensive background in keyboard skills, musical understanding, and performance ability." It
+                    involves learning a specific set of technical and theoretical skills and performing before an adjudicator
+                    to receive a certificate of achievement.
+                </p>
+                <br>
+                <p>
+                    There are 10 levels of testing. I believe the Syllabus is helpful in developing student’s musical skill and overall ability
+                    to learn, accomplish goals, present him or herself in public, and develop self-confidence.
+                    <br>
+                    <br>Here are the basics of how it works:
+                    <br>There are two exam weekends per year, one in the spring and one in the fall.
+                </p>
+                <br>
+                <p>
+                    Students need not start at level 1, but can test at their appropriate level.
+                    <br>
+                    <br>The student will be required to perform three or four pieces of contrasting styles from memory, plus
+                    a series of technical skills.
+                    <br>
+                    <br>The exam fee ranges from $22 to $55. There will be a $20 annual fee to the studio.</p>
+                <ul class="mobileContainer__bottom--secondaryNav">
+                    <li>
+                        <a href="#practiceMob">Practice</a>
+                    </li>
+                    <li>
+                        <a href="#recitalsMob">Recitals</a>
+                    </li>
+                    <li>
+                        <a href="#syllabusMob">Syllabus</a>
+                    </li>
+                    <li>
+                        <a href="#paymentMob">Payment</a>
+                    </li>
+                    <li>
+                        <a href="#makeupsMob">Make-ups</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobileContainer__bottom--payment" id="paymentMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Payment</div>
+            <div class="mobileContainer__bottom--specifications-text">
+                <p>
+                    <span>If you are looking for value</span> read this page carefully so that you know what you are getting for
+                    your dollars. If you are looking for the least expensive teacher, click the prices link at the bottom
+                    of the page.
+                </p>
+                <br>
+                <p>
+                    My prices are competitive but not the cheapest. This Studio offers the best value in the area. Before explaining the payment
+                    plans I would like to point out some extra benefits you will receive that most other teachers don't offer.
+                </p>
+                <br>
+                <p>
+                    I will make lessons up as my schedule permits. Many teachers don't.
+                    <br>
+                    <br>I do not charge a recital fee and I offer refreshment afterward at no charge. Some students come just
+                    for the cookies!
+                    <br>
+                    <br>I have two grand pianos so that I can play with students and demonstrate for them easily.</p>
+                <br>
+                <a href="#pricingMob" class="mobileContainer__bottom--payment-pricingText">Lesson Plan Pricing</a>
+                <ul class="mobileContainer__bottom--secondaryNav">
+                    <li>
+                        <a href="#practiceMob">Practice</a>
+                    </li>
+                    <li>
+                        <a href="#recitalsMob">Recitals</a>
+                    </li>
+                    <li>
+                        <a href="#syllabusMob">Syllabus</a>
+                    </li>
+                    <li>
+                        <a href="#paymentMob">Payment</a>
+                    </li>
+                    <li>
+                        <a href="#makeupsMob">Make-ups</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobileContainer__bottom--makeups" id="makeupsMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Makeups</div>
+
+            <div class="mobileContainer__bottom--specifications-text">
+                <p>
+                    If a student misses a lesson, it may be made up as the studio schedule permits. In order to reschedule a lesson, you must request a makeup lesson time by the end of the missed lesson time. You can find my weekly schedule "Reschedule a Lesson" at <a style="text-decoration: underline" href="https://murvihill.net/#calendar">murvihill.net/#calendar</a>. Lessons can be rescheduled for no later than the last day of the upcoming August.
+                </p>
+                <br>
+                <p>
+                    If the studio cancels a lesson, it may be made up at your discretion as the studio schedule permits, or you will be refunded
+                    the price of the lesson.
+                </p>
+
+                <ul class="mobileContainer__bottom--secondaryNav">
+                    <li>
+                        <a href="#practiceMob">Practice</a>
+                    </li>
+                    <li>
+                        <a href="#recitalsMob">Recitals</a>
+                    </li>
+                    <li>
+                        <a href="#syllabusMob">Syllabus</a>
+                    </li>
+                    <li>
+                        <a href="#paymentMob">Payment</a>
+                    </li>
+                    <li>
+                        <a href="#makeupsMob">Make-ups</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobileContainer__bottom--pricing" id="pricingMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Pricing</div>
+            <div class="mobileContainer__bottom--specifications-text">
+                <p>
+                    I do not charge by the lesson, but by the month.
+                </p>
+                <br>
+                <p>
+                    Students who choose the installment plan will pay (at a discount) for four months in September, four in December and four
+                    in March. There will be 48 scheduled lessons per year. Additionally, a family discount is reflected in
+                    the payments below.
+                </p>
+                <br>
+                <p>
+                    Those on the monthly plan will pay in full each month regardless of the number of lessons scheduled. There will be 48 lessons
+                    scheduled per year. There is no family disount for the monthly plan. </p>
+                <br>
+                <a href="#feesMob" class="mobileContainer__bottom--pricing-feesText">Here are the fees</a>
+                <ul class="mobileContainer__bottom--secondaryNav">
+                    <li>
+                        <a href="#practiceMob">Practice</a>
+                    </li>
+                    <li>
+                        <a href="#recitalsMob">Recitals</a>
+                    </li>
+                    <li>
+                        <a href="#syllabusMob">Syllabus</a>
+                    </li>
+                    <li>
+                        <a href="#paymentMob">Payment</a>
+                    </li>
+                    <li>
+                        <a href="#makeupsMob">Make-ups</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobileContainer__bottom--fees" id="feesMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Fees</div>
+            <div class="mobileContainer__bottom--specifications-text">
+                <p>
+                    Installment plan (3 payments per year)
+                    <br>
+                    <br> 1 student 30 min. $460
+                    <br> 2 students 30 min. $750
+                    <br> 3 students 30 min. $1,100
+                    <br> 1 student 45 min. $650
+                    <br> 1 student 45 min. and 1 student 30 min. $1000
+                    <br> 2 students 45 min. $1,200
+                    <br>
+                    <br> Students visiting family abroad for extended periods of time must notify me by March 1 to reduce their
+                    payments. Payments are due on September 15th, December 15th and March 15th. There are no refunds.
+                </p>
+                <br>
+                <p>
+                    Monthly plan
+                    <br>
+                    <br> 1 student 30 min. $140
+                    <br> 2 students 30 min. $280
+                    <br> 3 students 30 min. $420
+                    <br> 1 student 45 min. $190
+                    <br> 1 student 45 min. 1 student 30 min. $330
+                    <br> 2 students 45 min. $380
+                    <br>
+                    <br> Payments are due at the first lesson of each month. There are no refunds.
+                </p>
+                <br>
+
+                <ul class="mobileContainer__bottom--secondaryNav">
+                    <li>
+                        <a href="#practiceMob">Practice</a>
+                    </li>
+                    <li>
+                        <a href="#recitalsMob">Recitals</a>
+                    </li>
+                    <li>
+                        <a href="#syllabusMob">Syllabus</a>
+                    </li>
+                    <li>
+                        <a href="#paymentMob">Payment</a>
+                    </li>
+                    <li>
+                        <a href="#makeupsMob">Make-ups</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="mobileContainer__bottom--studentperfs" id="studentperfsMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Student Performances</div>
+            <div class="mobileContainer__bottom--specifications-text">
+                <ul class="recordingNav__student">
+                    <li>
+                        <audio id="solfeggiettoMob" src="media/Solfeggietto.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('solfeggiettoMob', 'solfeggiettoPauseMob')">
+                            Solfeggietto
+                            <button id="solfeggiettoPauseMob" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <audio id="hobbitMob" src="media/The_Hobbit.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('hobbitMob','hobbitPauseMob')">
+                            The Hobbit
+                            <button id="hobbitPauseMob" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <audio id="hedwigMob" src="media/Hedwig_s_Theme_0.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('hedwigMob', 'hedwigPauseMob')">
+                            Hedwig's Theme
+                            <button id="hedwigPauseMob" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <audio id="neatBeatMob" src="media/A_Neat_Beat.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('neatBeat', 'neatBeatPauseMob')">
+                            A Neat Beat
+                            <button id="neatBeatPauseMob" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <audio id="rainRoofMob" src="media/Rain_On_the_Roof.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('rainRoofMob', 'rainRoofPauseMob')">
+                            Rain on the Roof
+                            <button id="rainRoofPauseMob" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <audio id="arabesqueMob" src="media/L_Arabesque.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('arabesqueMob', 'arabesquePauseMob')">
+                            L'Arabesque
+                            <button id="arabesquePauseMob" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mobileContainer__bottom--studentperfs" id="ronPerfsMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Ron Murvihill Performs</div>
+            <div class="mobileContainer__bottom--specifications-text">
+                <h3>
+                    Ron Murvihill Performs
+                </h3>
+                <ul>              
+                    <li>
+                        <audio id="blueBossa" src="media/blueBossa.m4a" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('blueBossa', 'bossaPauseMob')">
+                            Blue Bossa
+                            <button id="bossaPauseMob" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+    
+                    </li>
+                    <li>
+                        <audio id="misty" src="media/misty.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('misty', 'mistyPauseMob')" target="_blank">
+                            Misty
+                            <button id="mistyPauseMob" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <audio id="wivesAndLovers" src="media/wivesAndLovers.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('wivesAndLovers', 'wivesPauseMob')">
+                            Wives and Lovers
+                            <button id="wivesPauseMob" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=GOrvYGL2IbU" target="_blank">Lachesis on YouTube</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mobileContainer__bottom--studentperfs" id="reviewsMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Reviews</div>
+            <div class="mobileContainer__bottom--reviews">
+                <p>
+                    Rina D -- 
+                    Mr.Murvihill is an amazing piano teacher! He is very encouraging and motivating. My daughter likes his style of teaching and he is very knowledgeable about the subject matter.  A few times she has missed her classes because of other activities and getting make-up lessons has never been an issue. Apart from piano he also teaches guitar. When we were considering buying an used piano, he volunteered to come with us to evaluate it. That was very thoughtful of him. Beginning of the school year he sends the schedule of piano lessons to parents which shows how well organized he is. Every winter and spring he hosts recitals at his place for which he bakes chocolate chip cookies and makes other yummy snacks! He is an awesome teacher and above all a wonderful person!
+                </p>
+                <hr>
+                <p>
+                    Arun T --
+                    
+                    My daughter has been learning piano with Ron for 6 years now. She loves going to the classes and the recitals. Ron is very good with young kids, especially kids starting to learn. He is very patient and encouraging. His wife Liz is the same. Highly recommend classes with Ron.
+                </p>
+                <hr>
+                <p>
+                    Kevin N -- 
+                    
+                    I enjoyed learning piano with Ron. He is very chill and really wants to help you improve. If you practice consistently, you will have a good time and make progress!
+                </p>
+                <hr>
+                <p>
+                    Rosemary C --
+                    
+                    Jamie has been taking lessons from Ron for 8 years and has learned so much. Ron not only teaches the correct way to play an instrument but also teaches music theory as well. I believe this is so valuable when learning music as it brings a better understanding and richness to the music. I highly recommend the Murvihill Music Studio for anyone who wants to learn music by a very knowledgeable and excellent instructor who has a good sense of humor.
+                </p>
+                <hr>
+                <p>
+                    Prajwal S --
+                    
+                    Ron really understands that each student is different and does his level best to accommodate to their learning style. He is very flexible with scheduling and he really has a passion for what he does.
+                </p>
+                <hr>
+                <p>
+                    Lakshmi K --
+                    Ron is an excellent Piano and Guitar teacher. He has been my older son's piano teacher for almost 8 years now and he has taught so much more than how to play piano. My younger son learns Guitar from him. His dedication, passion, and enthusiasm are inspiring. Ron is very knowledgeable with OMTA syllabus material and prepares my son well for the OMTA exams. He is versatile and wrote notes for some Bollywood songs that we requested. He plays and teaches Piano, guitar, sax and more... Both my kids absolutely enjoy going to his music lessons!!
+                </p>
+                <hr>
+                <p>
+                    Heidi S -- 
+                    Ron taught piano to both my son (kindergarten through 6th grade) and daughter (first through fifth grade). Both children flourished under Ron's student-driven approach to learning. Ron is patient and kind and takes time to understand each child's unique learning requirements, while helping them find joy in their musicianship. He transitioned both children to different instruments at their request, and their piano foundation was extremely helpful in both cases. My son continues to meet with Ron a few times each month to study jazz guitar and bass. Both kids will always have a lifelong foundation in music, and a strong appreciation of it as well. Thank you Ron!
+                </p>
+                <hr>
+                <p>
+                    Kavita K --
+                    
+                    The Murvihill Music Studio is very good. My daughters enjoy learning music from Ron.
+                </p>
+                <hr>
+            </div>
+        </div>
+        <div class="mobileContainer__bottom--map" id="mapMob">
+            <div class="mobileContainer__mainTitle mobileContainer__mainTitle--notFirst">Murvihill Studio Map</div>          
+         </div>
+    </div>
+    <!-- HOME -->
+    <div class="mainContainer">
+        <div class="heroContainer" id="home">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+        <div class="hero_bottomContainer hero__bottomContainer--index">
+            <ul class="secondaryNav">
+                <li>
+                    <a href="#pianoLessons">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarLessons">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassLessons">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzLessons">Jazz Lessons</a>
+                </li>
+            </ul>
+            
+            <div class="hero_bottomContainer recordingNav__main hero__bottomContainer--testimonialSyllabusRecording">
+                <div class="hero__bottomContainer--testimonialSyllabusRecording-testimonial"> 
+                    <p>"Mr.Murvihill is an amazing piano teacher! He is very encouraging 
+                        and motivating." --Rina D. <a href="#reviews" style="text-decoration: underline; font-size: 10px; font-style:italic;">read more</a></p>
+                    <p>"Both kids will always have a lifelong foundation in music and a 
+                    strong appreciation of it as well. Thank you Ron!" --Heidi S.
+                        <a href="#reviews" style="text-decoration: underline; font-size: 10px; font-style: italic;">read more</a><br>
+                    </p>
+                </div>
+                <div>
+                    <button class="btnGold"><a href='#syllabus'>View Syllabus</a></button>
+                    <button class="btnGold"><a href='#ronperfs'>Listen to Ron Murvihill play</a></button> 
+                </div>                                                                                          
+            </div>
+        </div>            
+    </div>
+
+    <!-- STUDIO LOCATION -->
+
+    <div class="mainContainer">
+
+        <div class="heroContainer" id="location">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--location ">
+            <div class="secondaryText hero__bottomContainer--location-secondaryText ">
+                <p>
+                    The Murvihill Piano Studio is located just minutes from Bethany Village at 10021 NW Thomson Rd, Portland.
+                </p>
+                <br>
+                <p>
+                    Directions from the west:
+
+                    The fourth driveway east (uphill) from the corner of Laidlaw and Thompson on the left (just past the green 3 mile marker on the left). Veer left immediately upon entering the driveway and park to the right in front of the garage.
+                </p>
+                <br>
+
+                <p>
+                    Directions from the east:
+
+                    The first driveway west (downhill) from Devoto (this is at the second big Forest Park sign) on the right. Veer left immediately upon entering the driveway and park and park to the right in front of the garage.
+                </p>
+                <br>
+                <br>
+                <a href="#map">Map</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+
+    <div class="mainContainer">
+        <div class="heroContainer heroContainer__about" id="about">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+            <div class="testimonials">
+                <ul>
+                    <li>
+                        <a href="#yinTestimonial">Yin Says</a>
+                    </li>
+                    <li>
+                        <a href="#heidiTestimonial">Heidi Says</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+        <div class="hero_bottomContainer hero__bottomContainer--about">
+            <div class="secondaryText hero__bottomContainer--about-secondaryText">With a Master's Degree in Jazz Studies from the University of North Texas, Ron Murvihill has a wealth of musical
+                training and experience to share with his students. Ron has been teaching in the Bethany area since 2003
+                in addition to performing jazz and sacred music in Portland. He has played trombone in big bands and salsa
+                bands, taught jazz at the college level, composed and produced award winning incidental music for theater,
+                taught music students in the elementary schools and developed and assisted in the development of middle school
+                band programs.</div>
+            <div class="aboutRecordings">
+                <img src="img/RonBlackBG.jpg" alt="Ron Murvihill photo" class="aboutRecordings__img">
+                <ul class="recordingNav__main aboutRecordings__text" style="margin-left: 190px">
+                    <h3>Hear Ron Live at the Heathman:</h3>
+                    <li>
+                        <audio id="misty" src="media/misty.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('misty', 'mistyPauseAbout')">
+                            Misty
+                            <button id="mistyPauseAbout" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <audio id="wivesAndLovers" src="media/wivesAndLovers.mp3" preload="auto">
+                        </audio>
+                        <a onClick="togglePlay('wivesAndLovers', 'wivesPauseAbout')">
+                            Wives and Lovers
+                            <button id="wivesPauseAbout" class="recordingNav__main--pauseButton">
+                                Pause
+                            </button>
+                        </a>
+                    </li>
+                    <br>
+                    <h3>See Ron On YouTube:</h3>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=GOrvYGL2IbU" target="_blank">Lachesis on YouTube</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="contact">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--contact">
+            <div class="hero__bottomContainer--contact-secondaryText">
+                <p>Telephone : 503-240-7144</p>
+                <p>Email: ron@murvihill.net</p>
+                <p>CALL FOR FREE CONSULTATION</p>
+            </div>
+            <ul class="secondaryNav">
+                <li>
+                    <a href="#pianoLessons">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarLessons">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassLessons">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzLessons">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- YIN TESTIMONIAL -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="yinTestimonial">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer hero__bottomContainer--yinTestimonial ">
+
+            <ul class="secondaryNav">
+                <li>
+                    <a href="#pianoLessons">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarLessons">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassLessons">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzLessons">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- HEIDI TESTIMONIAL -->
+    <div class="mainContainer">
+        <div class="heroContainer" id="heidiTestimonial">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer hero__bottomContainer--heidiTestimonial">
+
+            <ul class="secondaryNav">
+                <li>
+                    <a href="#pianoLessons">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarLessons">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassLessons">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzLessons">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Piano Lessons -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="pianoLessons">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--lessonSpecifics">
+            <div class="secondaryText__lessonSpecifics">
+                <h1 class="hero__bottomContainer--lessonSpecifics-headerText">Piano Lessons</h1>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    Piano students will play songs and read music from the first lesson. Beginning students learn to read using fingerings as
+                    they develop rhythm, tempo and articulation skills. As they progress, they will learn to read notes using
+                    skips and steps and through note reading.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    "I am very patient. I take into account that each child has different learning strategies and requires different teaching
+                    approaches. I encourage students to explore their interest in different styles of music while insisting
+                    that they learn to play with good rhythm, tempo, articulation and musicality.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    I have found that many students appreciate the individual attention that they seldom receive at our public schools, and that
+                    the ability to play music from a book or in groups improves concentration. I believe strongly in developing
+                    a students reading skills so that they may continue to enjoy playing different pieces of music as they
+                    move through life. " ~ Ron Murvihill
+                </p>
+            </div>
+            <ul class="secondaryNav">
+                <li>
+                    <a href="#pianoLessons">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarLessons">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassLessons">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzLessons">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Guitar Lessons -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="guitarLessons">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--lessonSpecifics">
+            <div class="secondaryText__lessonSpecifics">
+                <h1 class="hero__bottomContainer--lessonSpecifics-headerText">Guitar Lessons</h1>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    The Murvihill Piano Studio is offering guitar lessons to beginning guitarists at least 7 years old. Students will learn chords,
+                    songs, strumming and picking techniques, different scales for different musical styles and good sound
+                    production.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    As students advance they will learn how barre chords can expand their chordal vocabulary twelvefold. They will learn to play
+                    in tempo with recordings and with other musicians, and learn practice skills to accelerate their development.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    Students can learn techniques for playing rock, metal, blues, jazz or classical while at the same time develop good fundamental
+                    musical skills.
+                </p>
+            </div>
+            <ul class="secondaryNav">
+                <li>
+                    <a href="#pianoLessons">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarLessons">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassLessons">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzLessons">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Brass Lessons -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="brassLessons">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--lessonSpecifics">
+            <div class="secondaryText__lessonSpecifics">
+                <h1 class="hero__bottomContainer--lessonSpecifics-headerText">Brass Lessons</h1>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    The most important aspect of strong brass playing is a strong sound. Students will learn to play with a good sound foremost,
+                    but will also learn rhythm, articulation, musicality and will learn to read music and to play in groups.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    Students will have the opportunity each week during lessons to hear professional level brass sound. It is extremely important
+                    that this sound is internalized and emulated .
+                </p>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    Students will have free professional level piano accompanying available to them for lessons and for recitals.
+                </p>
+            </div>
+            <ul class="secondaryNav">
+                <li>
+                    <a href="#pianoLessons">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarLessons">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassLessons">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzLessons">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Jazz Lessons -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="jazzLessons">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--lessonSpecifics">
+            <div class="secondaryText__lessonSpecifics">
+                <h1 class="hero__bottomContainer--lessonSpecifics-headerText">Jazz Lessons</h1>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    Jazz study involves a multitude of skills in addition to basic musical skills. Students at the Murvihill Piano Studio will
+                    develop these skills, including:
+                </p>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    ~ A thorough understanding of harmonic theory
+                    <br> ~ An ability to emulate musical styles
+                    <br> ~ A good understanding of composition
+                    <br> ~ The musical and visual customs of the traditional jazz group
+                    <br> ~ Bebop vocabulary
+                    <br> ~ Solo transcription
+                </p>
+                <br>
+                <p class="hero__bottomContainer--lessonSpecifics-secondaryText">
+                    Students will also have opportunities to practice and perform with a professional jazz pianist and to participate in jam
+                    sessions with other students and jazz professionals.
+                </p>
+            </div>
+            <ul class="secondaryNav">
+                <li>
+                    <a href="#pianoLessons">Piano Lessons</a>
+                </li>
+                <li>
+                    <a href="#guitarLessons">Guitar Lessons</a>
+                </li>
+                <li>
+                    <a href="#brassLessons">Brass Lessons</a>
+                </li>
+                <li>
+                    <a href="#jazzLessons">Jazz Lessons</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Policies -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="policies">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--policies">
+
+            <ul class="secondaryNav secondaryNav__policies">
+                <li>
+                    <a href="#practice">Practice</a>
+                </li>
+                <li>
+                    <a href="#recitals">Recitals</a>
+                </li>
+                <li>
+                    <a href="#syllabus">Syllabus</a>
+                </li>
+                <li>
+                    <a href="#payment">Payment</a>
+                </li>
+                <li>
+                    <a href="#makeups">Make-ups</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Practice -->
+    <div class="mainContainer">
+        <div class="heroContainer" id="practice">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--practice">
+            <div style="margin-left: 5px">
+                <p class="hero__bottomContainer--practice-secondaryText">
+                    Practice is the key to learning an instrument. One can think of practice as the engine that drives the train of improvement,
+                    while lessons are the rails that keep the train headed in the right direction.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--practice-secondaryText">
+                    The reality is that most young students want to learn and play their instrument but they don't want to practice. It is the
+                    responsibility of parents to ensure that their children are practicing consistently.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--practice-secondaryText">
+                    Adult students are motivated to practice, but have many other priorities that preclude consistent practice periods. Adult
+                    students must make sure that they can prioritize practice time.
+                </p>
+            </div>
+            <ul class="secondaryNav secondaryNav__policies">
+                <li>
+                    <a href="#practice">Practice</a>
+                </li>
+                <li>
+                    <a href="#recitals">Recitals</a>
+                </li>
+                <li>
+                    <a href="#syllabus">Syllabus</a>
+                </li>
+                <li>
+                    <a href="#payment">Payment</a>
+                </li>
+                <li>
+                    <a href="#makeups">Make-ups</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Recitals -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="recitals">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--recitals">
+            <div style="margin-left: 10px">
+                <p class="hero__bottomContainer--recitals-secondaryText">
+                    Recitals occur two times a year, once at the end of January and once at the beginning of June. They take place at the studio
+                    and run about 45 minutes after which there is a reception with snacks and drinks.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--recitals-secondaryText">
+                    Students are not required to perform or attend recitals but are strongly encouraged to. The most progress occurs for many
+                    students the month before a recital.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--recitals-secondaryText">
+                    There are currently no fees for recitals.
+                </p>
+            </div>
+            <ul class="secondaryNav secondaryNav__policies">
+                <li>
+                    <a href="#practice">Practice</a>
+                </li>
+                <li>
+                    <a href="#recitals">Recitals</a>
+                </li>
+                <li>
+                    <a href="#syllabus">Syllabus</a>
+                </li>
+                <li>
+                    <a href="#payment">Payment</a>
+                </li>
+                <li>
+                    <a href="#makeups">Make-ups</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Syllabus -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="syllabus">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--syllabus">
+            <p class="hero__bottomContainer--syllabus-secondaryText">
+                The Oregon Music Teachers Association Piano Syllabus is “an outline of study designed to provide students with a thorough
+                and comprehensive background in keyboard skills, musical understanding, and performance ability." It involves
+                learning a specific set of technical and theoretical skills and performing before an adjudicator to receive
+                a certificate of achievement.
+            </p>
+            <br>
+            <p class="hero__bottomContainer--syllabus-secondaryText">
+                There are 10 levels of testing. I believe the Syllabus is helpful in developing student’s musical skill and overall ability
+                to learn, accomplish goals, present him or herself in public, and develop self-confidence.
+                <br>Here are the basics of how it works:
+                <br>There are two exam weekends per year, one in the spring and one in the fall.
+            </p>
+            <br>
+            <p class="hero__bottomContainer--syllabus-secondaryText">
+                Students need not start at level 1, but can test at their appropriate level.
+                <br>
+                <br>The student will be required to perform three or four pieces of contrasting styles from memory, plus a series
+                of technical skills.
+                <br>
+                <br>The exam fee ranges from $22 to $55. There will be a $20 annual fee to the studio.</p>
+            <ul class="secondaryNav secondaryNav__policies">
+                <li>
+                    <a href="#practice">Practice</a>
+                </li>
+                <li>
+                    <a href="#recitals">Recitals</a>
+                </li>
+                <li>
+                    <a href="#syllabus">Syllabus</a>
+                </li>
+                <li>
+                    <a href="#payment">Payment</a>
+                </li>
+                <li>
+                    <a href="#makeups">Make-ups</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Payment -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="payment">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--payment">
+            <div style="margin-left: 5px">
+                <p class="hero__bottomContainer--payment-secondaryText">
+                    <span>If you are looking for value</span> read this page carefully so that you know what you are getting for your
+                    dollars. If you are looking for the least expensive teacher, click the prices link at the bottom of the page.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--payment-secondaryText">
+                    My prices are competitive but not the cheapest. This Studio offers the best value in the area. Before explaining the payment
+                    plans I would like to point out some extra benefits you will receive that most other teachers don't offer.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--payment-secondaryText">
+                    I will make lessons up as my schedule permits. Many teachers don't.
+                    <br>
+                    <br>I do not charge a recital fee and I offer refreshment afterward at no charge. Some students come just for
+                    the cookies!
+                    <br>
+                    <br>I have two grand pianos so that I can play with students and demonstrate for them easily.</p>
+                <br>
+                <a href="#pricing" class="hero__bottomContainer--payment-pricingText">Lesson Plan Pricing</a>
+            </div>
+            <ul class="secondaryNav secondaryNav__policies">
+                <li>
+                    <a href="#practice">Practice</a>
+                </li>
+                <li>
+                    <a href="#recitals">Recitals</a>
+                </li>
+                <li>
+                    <a href="#syllabus">Syllabus</a>
+                </li>
+                <li>
+                    <a href="#payment">Payment</a>
+                </li>
+                <li>
+                    <a href="#makeups">Make-ups</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Make-ups -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="makeups">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--makeups">
+            <div style="margin-left: 5px">
+                <p class="hero__bottomContainer--makeups-secondaryText">
+                    If a student misses a lesson, it may be made up as the studio schedule permits. In order to reschedule
+                    a lesson, you must request a makeup lesson time by the end of the missed lesson time. You can find
+                    my weekly schedule "Reschedule a Lesson" at <a style="text-decoration: underline" href="https://murvihill.net/#calendar">
+                    murvihill.net/#calendar</a>. Lessons can be rescheduled for no later than the last day of the upcoming
+                    August.
+                </p>
+                <br>
+                <p class="hero__bottomContainer--makeups-secondaryText">
+                    If the studio cancels a lesson, it may be made up at your discretion as the studio schedule permits,
+                    or you will be refunded the price of the lesson.
+                </p>
+            </div>
+
+            <ul class="secondaryNav secondaryNav__policies">
+                <li>
+                    <a href="#practice">Practice</a>
+                </li>
+                <li>
+                    <a href="#recitals">Recitals</a>
+                </li>
+                <li>
+                    <a href="#syllabus">Syllabus</a>
+                </li>
+                <li>
+                    <a href="#payment">Payment</a>
+                </li>
+                <li>
+                    <a href="#makeups">Make-ups</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Pricing -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="pricing">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--pricing">
+            <p class="hero__bottomContainer--pricing-secondaryText">
+                I do not charge by the lesson, but by the month.
+            </p>
+            <br>
+            <p class="hero__bottomContainer--pricing-secondaryText">
+                Students who choose the installment plan will pay (at a discount) for four months in September, four in December and four
+                in March. There will be 48 scheduled lessons per year. Additionally, a family discount is reflected in the
+                payments below.
+            </p>
+            <br>
+            <p class="hero__bottomContainer--pricing-secondaryText">
+                Those on the monthly plan will pay in full each month regardless of the number of lessons scheduled. There will be 48 lessons
+                scheduled per year. There is no family disount for the monthly plan. </p>
+            <br>
+            <a href="#fees" class="hero__bottomContainer--pricing-feesText">Here are the fees</a>
+            <ul class="secondaryNav secondaryNav__policies">
+                <li>
+                    <a href="#practice">Practice</a>
+                </li>
+                <li>
+                    <a href="#recitals">Recitals</a>
+                </li>
+                <li>
+                    <a href="#syllabus">Syllabus</a>
+                </li>
+                <li>
+                    <a href="#payment">Payment</a>
+                </li>
+                <li>
+                    <a href="#makeups">Make-ups</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Fees -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="fees">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--fees">
+            <h3>Fees</h3>
+            <p>
+                Installment plan (3 payments per year)
+                <br>
+                <br> 1 student 30 min. $460
+                <br> 2 students 30 min. $750
+                <br> 3 students 30 min. $1,100
+                <br> 1 student 45 min. $650
+                <br> 1 student 45 min. and 1 student 30 min. $1000
+                <br> 2 students 45 min. $1,200
+                <br>
+                <br> Students visiting family abroad for extended periods of time must notify me by March 1 to reduce their
+                payments. Payments are due on September 15th, December 15th and March 15th. There are no refunds.
+            </p>
+            <br>
+            <p>
+                Monthly plan
+                <br>
+                <br> 1 student 30 min. $140
+                <br> 2 students 30 min. $280
+                <br> 3 students 30 min. $420
+                <br> 1 student 45 min. $190
+                <br> 1 student 45 min. 1 student 30 min. $330
+                <br> 2 students 45 min. $380
+                <br>
+                <br> Payments are due at the first lesson of each month. There are no refunds.
+            </p>
+            <br>
+
+            <ul class="secondaryNav secondaryNav__policies">
+                <li>
+                    <a href="#practice">Practice</a>
+                </li>
+                <li>
+                    <a href="#recitals">Recitals</a>
+                </li>
+                <li>
+                    <a href="#syllabus">Syllabus</a>
+                </li>
+                <li>
+                    <a href="#payment">Payment</a>
+                </li>
+                <li>
+                    <a href="#makeups">Make-ups</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Student Performances -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="studentperfs">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--studentperfs">
+            <ul class="recordingNav__student">
+                <li>
+                    <audio id="solfeggietto" src="media/Solfeggietto.mp3" preload="auto">
+                    </audio>
+                    <a onClick="togglePlay('solfeggietto', 'solfeggiettoPause')">
+                        Solfeggietto
+                        <button id="solfeggiettoPause" class="recordingNav__main--pauseButton">
+                            Pause
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <audio id="hobbit" src="media/The_Hobbit.mp3" preload="auto">
+                    </audio>
+                    <a onClick="togglePlay('hobbit','hobbitPause')">
+                        The Hobbit
+                        <button id="hobbitPause" class="recordingNav__main--pauseButton">
+                            Pause
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <audio id="hedwig" src="media/Hedwig_s_Theme_0.mp3" preload="auto">
+                    </audio>
+                    <a onClick="togglePlay('hedwig', 'hedwigPause')">
+                        Hedwig's Theme
+                        <button id="hedwigPause" class="recordingNav__main--pauseButton">
+                            Pause
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <audio id="neatBeat" src="media/A_Neat_Beat.mp3" preload="auto">
+                    </audio>
+                    <a onClick="togglePlay('neatBeat', 'neatBeatPause')">
+                        A Neat Beat
+                        <button id="neatBeatPause" class="recordingNav__main--pauseButton">
+                            Pause
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <audio id="rainRoof" src="media/Rain_On_the_Roof.mp3" preload="auto">
+                    </audio>
+                    <a onClick="togglePlay('rainRoof', 'rainRoofPause')">
+                        Rain on the Roof
+                        <button id="rainRoofPause" class="recordingNav__main--pauseButton">
+                            Pause
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <audio id="arabesque" src="media/L_Arabesque.mp3" preload="auto">
+                    </audio>
+                    <a onClick="togglePlay('arabesque', 'arabesquePause')">
+                        L'Arabesque
+                        <button id="arabesquePause" class="recordingNav__main--pauseButton">
+                            Pause
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Ron's Performances -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="ronperfs">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__bottomContainer--ronperfs">
+            <h3>Listen to Ron Murvihill Play</h3>
+            <ul>              
+                <li>
+                    <audio id="blueBossa" src="media/blueBossa.m4a" preload="auto">
+                    </audio>
+                    <a onClick="togglePlay('blueBossa', 'bossaPause')">
+                        Blue Bossa
+                        <button id="bossaPause" class="recordingNav__main--pauseButton">
+                            Pause
+                        </button>
+                    </a>
+
+                </li>
+                <li>
+                    <audio id="misty" src="media/misty.mp3" preload="auto">
+                    </audio>
+                    <a onClick="togglePlay('misty', 'mistyPause')" target="_blank">
+                        Misty
+                        <button id="mistyPause" class="recordingNav__main--pauseButton">
+                            Pause
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <audio id="wivesAndLovers" src="media/wivesAndLovers.mp3" preload="auto">
+                    </audio>
+                    <a onClick="togglePlay('wivesAndLovers', 'wivesPause')">
+                        Wives and Lovers
+                        <button id="wivesPause" class="recordingNav__main--pauseButton">
+                            Pause
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=GOrvYGL2IbU" target="_blank">Lachesis on YouTube</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Map -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="studentperfs">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="mainContainer--map">
+        <h3>
+            The Murvihill Music Studio
+        </h3>
+        10021 NW Thomson Rd, Portland
+        <div id="map" class="mainContainer__map">
+                
+        </div>
+    </div>
+
+
+    <!-- Calendar -->
+
+    <div class="mainContainer">
+        <div class="heroContainer" id="studentperfs">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <div id="calendar" class="mainContainer--calendarContainer">
+        <h3>
+            The Murvihill Music Studio Calendar
+        </h3>
+        <div class="mainContainer--calendar">
+            <p class="mainContainer--calendar-heading">Find a permanent lesson time:</p>
+            <p id='js--staticCalendarText'>If you are a new/prospective student or are a current student wishing to change your permanent lesson time, <span onClick="showCalendar('static')" style="text-decoration: underline; cursor: pointer;">click here</span> on the permanent calendar to see available lesson time slots.</p>
+            <br>
+            <p>Studio hours: 9am-9pm, Mon-Sat unless otherwise indicated</p>
+            <button id="js--closeStatic" class='btnGold' onClick="showCalendar('close')" style="display: none">Close Calendar</button>
+            <div id="js--staticCalendar"class="mainContainer--staticCalendar" style="display:none; font-size:75%">
+                <p id='js--clickhere'>Having trouble scrolling? <span onClick="troubleScrolling('static');" style="cursor:pointer; text-decoration: underline;">Click Here</span></p>
+                <p class='troubleScrolling' id='js--troubleScrolling'>For non iOS (Apple) devices, be sure to click or touch inside the calendar to scroll. For iOS (Apple) devices, drag circle sideways to scroll sideways.</br><span>&#11044</span></p>        
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=ZGEyMjFiamJnNGp0NXRiMWpjNTFtYm9mYmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%233F51B5&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;title=The%20Murvihill%20Music%20Studio%20Permanent%20Schedule" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+        <hr>
+        <div class="mainContainer--calendar">
+            <p class="mainContainer--calendar-heading">Reschedule a Lesson:</p>
+            <p id='js--upcomingCalendarText'>If you are a current student wishing to reschedule a lesson, <span onClick="showCalendar('upcoming')" style="text-decoration: underline; cursor: pointer">click here</span> on the weekly calendar to see complete upcoming studio schedule.</p>
+            <button id="js--closeUpcoming" class='btnGold' onClick="showCalendar('close')" style="display: none">Close Calendar</button>
+            <div id="js--upcomingCalendar" class="mainContainer--upcomingCalendar" style="display:none">
+                <p style="font-size: 75%" id='js--clickhereUpcoming'>Having trouble scrolling? <span onClick="troubleScrolling('upcoming')" style="cursor:pointer; text-decoration: underline;">Click Here</span></p>
+                <p id='js--troubleScrollingUpcoming' class='troubleScrolling'>For non iOS (Apple) devices, be sure to click or touch inside the calendar to scroll. For iOS (Apple) devices, drag circle sideways to scroll sideways.</br><span>&#11044</span></p>        
+                <!-- need to change calendar colors? In Embeds, only one color per calendar, only certain colours allowed. See this post. https://cnfdesigns.com/embed-shared-google-calendar-different-colored-events/ -->
+                <iframe src="https://calendar.google.com/calendar/embed?src=k99efoe9qlh63mi1us46jn1gso%40group.calendar.google.com&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;color=%23711616&amp;src=bXVydmloaWxsMjVAZ21haWwuY29t&amp;color=%23039BE5&amp;mode=WEEK&amp;title=Makeup%20Calendar" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div height='50px' style="background: #039BE5"></div>
+        </div>
+        <hr>
+        Contact Ron for a free consultation or to set up a lesson time. 503-240-7144 or ron@murvihill.net</p>
+        <br><br>
+    </div>
+    <!-- Reviews -->
+    <div class="mainContainer">
+        <div class="heroContainer" id="reviews">
+            <div class="heroContainer__mainTitle">
+                The Murvihill Music Studio
+            </div>
+        </div>
+        <div class="mainNavContainer">
+            <ul class="mainNavContainer__mainNav">
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#about">About</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#policies">Policies</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#location">Location</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#calendar">Schedule</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a class='fontTiny' href="#studentperfs">Student Performances</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mainNavContainer__mainNav--button">
+                    <a href="#home">Home</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mainContainer--reviews">       
+            <div class="hero__bottomContainer--reviews">
+                <h3>
+                    Reviews for Murvihill Music Studio
+                </h3>          
+                <p>
+                    Rina D -- 
+                    Mr.Murvihill is an amazing piano teacher! He is very encouraging and motivating. My daughter likes his style of teaching and he is very knowledgeable about the subject matter.  A few times she has missed her classes because of other activities and getting make-up lessons has never been an issue. Apart from piano he also teaches guitar. When we were considering buying an used piano, he volunteered to come with us to evaluate it. That was very thoughtful of him. Beginning of the school year he sends the schedule of piano lessons to parents which shows how well organized he is. Every winter and spring he hosts recitals at his place for which he bakes chocolate chip cookies and makes other yummy snacks! He is an awesome teacher and above all a wonderful person!
+                </p>
+                <hr>
+                <p>
+                    Arun T --
+                    
+                    My daughter has been learning piano with Ron for 6 years now. She loves going to the classes and the recitals. Ron is very good with young kids, especially kids starting to learn. He is very patient and encouraging. His wife Liz is the same. Highly recommend classes with Ron.
+                </p>
+                <hr>
+                <p>
+                    Kevin N -- 
+                    
+                    I enjoyed learning piano with Ron. He is very chill and really wants to help you improve. If you practice consistently, you will have a good time and make progress!
+                </p>
+                <hr>
+                <p>
+                    Rosemary C --
+                    
+                    Jamie has been taking lessons from Ron for 8 years and has learned so much. Ron not only teaches the correct way to play an instrument but also teaches music theory as well. I believe this is so valuable when learning music as it brings a better understanding and richness to the music. I highly recommend the Murvihill Music Studio for anyone who wants to learn music by a very knowledgeable and excellent instructor who has a good sense of humor.
+                </p>
+                <hr>
+                <p>
+                    Prajwal S --
+                    
+                    Ron really understands that each student is different and does his level best to accommodate to their learning style. He is very flexible with scheduling and he really has a passion for what he does.
+                </p>
+                <hr>
+                <p>
+                    Lakshmi K --
+                    Ron is an excellent Piano and Guitar teacher. He has been my older son's piano teacher for almost 8 years now and he has taught so much more than how to play piano. My younger son learns Guitar from him. His dedication, passion, and enthusiasm are inspiring. Ron is very knowledgeable with OMTA syllabus material and prepares my son well for the OMTA exams. He is versatile and wrote notes for some Bollywood songs that we requested. He plays and teaches Piano, guitar, sax and more... Both my kids absolutely enjoy going to his music lessons!!
+                </p>
+                <hr>
+                <p>
+                    Heidi S -- 
+                    Ron taught piano to both my son (kindergarten through 6th grade) and daughter (first through fifth grade). Both children flourished under Ron's student-driven approach to learning. Ron is patient and kind and takes time to understand each child's unique learning requirements, while helping them find joy in their musicianship. He transitioned both children to different instruments at their request, and their piano foundation was extremely helpful in both cases. My son continues to meet with Ron a few times each month to study jazz guitar and bass. Both kids will always have a lifelong foundation in music, and a strong appreciation of it as well. Thank you Ron!
+                </p>
+                <hr>
+                <p>
+                    Kavita K --
+                    
+                    The Murvihill Music Studio is very good. My daughters enjoy learning music from Ron.
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
